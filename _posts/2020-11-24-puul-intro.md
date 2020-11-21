@@ -78,8 +78,7 @@ But it doesn't end there. We want some of those fees to go to the Puul Staking P
 
 We create another FarmEndpoint that owns the PUULREW and PUULWTH tokens. This FarmEndpoint is attached to PUULSTK. The rewards from PUULREW and PUULWTH (the fees) are owned by the FarmEndpoint attached to PUULSTK. 
 
-When those fee tokens are claimed, they wind up in the PUULSTK FarmEndpoint. When that FarmEndpoint is harvested into PUULSTK, the proportional rewards from the fees
-to to the PUULSTK token holders.
+When those fee tokens are claimed, they wind up in the PUULSTK FarmEndpoint. When that FarmEndpoint is harvested into PUULSTK, the proportional rewards from the fees go to the PUULSTK token holders.
 
 #### Pool, Tokenize, and Claim Recursively
 
@@ -100,6 +99,8 @@ an enormous number of transactions that are required to enter and exit farms.
 
 ### Simple Token Conversion
 We go one step further. When you claim rewards or withdraw, you can optionally convert the rewards or withdrawal into another token with **one** transaction.
+
+It's the same when you deposit - from a single token and one transaction you can start farming.
 
 ### Real World Example
 Imagine entering and exiting a typical farm. Let's say it's a farm that requires staking of a Uniswap LP Token, like PICKLE/WETH. Here is what you would
