@@ -8,9 +8,7 @@ tags: [puul]
 comments: false
 ---
 
-Welcome to Puul.
-
-Puul is the most versatile defi protocol available today.
+Welcome to Puul. Puul is the most versatile defi protocol available today.
 
 With Puul, you can farm existing farms and vaults in a much simpler way, and start collecting rewards immediately.
 
@@ -20,7 +18,7 @@ Puul is the only defi platform with the ability to farm **any** farm or vault. M
 
 ## Puul Generalizes Defi
 
-Puul generalizes defi into simple concepts
+Puul generalizes defi into simple concepts.
 
 ### Pools with Rewards
 
