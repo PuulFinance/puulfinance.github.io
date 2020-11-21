@@ -87,7 +87,7 @@ excerpt_length: 100
 feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
+feed_show_tags: false
 
 # The keywords to associate with your website, for SEO purposes
 #keywords: "my,list,of,keywords"
