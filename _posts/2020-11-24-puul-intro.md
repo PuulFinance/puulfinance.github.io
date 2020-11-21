@@ -45,7 +45,7 @@ This is a huge advance for defi.
 ### Everything is Farmable
 
 Pools in the Puul protocol collect rewards from farms. Puul adds the concept of a FarmEndpoint to the protocol. A FarmEndpoint
-can be attached to any pool. FarmEndpoints generalize the concept of farming in general, but also 
+can be attached to any pool. FarmEndpoints generalize the concept of farming, but also 
 provide other benefits. 
 
 A FarmEndpoint can produce it's own rewards (like a typical farm), but it can also
