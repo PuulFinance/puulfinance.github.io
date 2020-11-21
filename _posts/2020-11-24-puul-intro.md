@@ -76,7 +76,7 @@ The Puul network now has two other tokens, one for the reward fees (PUULREW) and
 
 But it doesn't end there. We want some of those fees to go to the Puul Staking Pool (PUULSTK). How do we do this? In the same way!
 
-We create another FarmEndpoint that owns the PUULREW and PUULWTH tokens. This FarmEndpoint is attached to PUULSTK. The rewards from PUULREW and PUULWITH (the fees) are owned by the FarmEndpoint attached to PUULSTK. 
+We create another FarmEndpoint that owns the PUULREW and PUULWTH tokens. This FarmEndpoint is attached to PUULSTK. The rewards from PUULREW and PUULWTH (the fees) are owned by the FarmEndpoint attached to PUULSTK. 
 
 When those fee tokens are claimed, they wind up in the PUULSTK FarmEndpoint. When that FarmEndpoint is harvested into PUULSTK, the proportional rewards from the fees
 to to the PUULSTK token holders.
