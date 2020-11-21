@@ -126,5 +126,9 @@ Due to the clean separation of concerns, any problems encountered will most like
 
 Puul has also reduced the complexity of distributing fees and rewards from even thousands of farms and vaults into a few familiar concepts.
 
+### What's Coming
 
+We have some pools that are available now. Go the the [Puul Finanace App](https://puul.finance) and check them out. 
+
+And please, keep checking back. You will see new pools appearing almost daily.
 
