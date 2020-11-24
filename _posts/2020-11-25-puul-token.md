@@ -23,7 +23,7 @@ of pools, vaults, and farms, so these fees will add up quickly.
 
 ### Governance
 
-PUUL tokens can be used to vote on the governance of the Puul protocol. For example, like what pools to support and the fees associated with those pools. 
+PUUL tokens can be used to vote on the governance of the Puul protocol. Like what pools to support and the fees associated with those pools. 
 
 Governance will eventually control all aspects of the Puul protocol.
 
