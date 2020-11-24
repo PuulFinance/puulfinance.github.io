@@ -1,4 +1,12 @@
-## Puul Token
+---
+layout: post
+title: Puul Token
+subtitle: Puul Tokenomics
+gh-repo: PuulFinance/puulfinance.github.io
+gh-badge: [follow]
+tags: [puul,token,defi]
+comments: false
+---
 
 The PUUL token is the main token in the Puul ecosystem. Owning PUUL tokens conveys many benefits in the Puul protocol, including:
 
