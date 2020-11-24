@@ -19,7 +19,7 @@ are - pool will track the correct values in all cases.
 
 Puul also greatly simplifies getting assets into and out of pools. Typically
 
-### Protocol Safety
+#### Protocol Safety
 
 Puul uses some now familiar concepts from farming and vaults, but generalizes them to allow much more flexible systems to be constructed. These systems are
 much safer than current systems due to the following reasons:
@@ -28,21 +28,21 @@ much safer than current systems due to the following reasons:
 2. Encapsulation 
 2. Separation of Concerns
 
-#### Abstraction
+##### Abstraction
 
 Puul has abstracted key farming and vault concepts to simplify many use cases. Due to the abstractions, very flexible and robust systems can easily be 
 construted with just a few operations.
 
-#### Encapsulation
+##### Encapsulation
 
 All Puul operations are encapsulated. One operation does one thing in the right place and at the right time.
 
-#### Separation of Concerns
+##### Separation of Concerns
 
 All protocol operations are separated such that each does it's own specific task. This leaves little or no room for exploits. A failure of one 
 operation will be isolated and most likely recoverable.
 
-### Example
+#### Example
 
 A good example of using the Puul protocol is our fee system. Puul collects withdrawal and reward fees from pools. Distributing those fees is problematic
 in most other protocols. There is usually some ad hoc, inflexible distribution mechanism that is hard or impossible to modify and change. 
@@ -64,12 +64,12 @@ FarmEndpoint. They are then harvested as rewards into PUULSTK. Owners of PUULSTK
 
 This process can go on ad infinitum to create elagant reward systems safely and easily.
 
-### Puul is Transaction Efficient
+#### Puul is Transaction Efficient
 
 The harvesting and claiming abstractions are very transaction efficient. These transactions are done at the global protocol level, and aren't dependent on
 user interactions. So they scale endlessly. Usually, you'll be performing these operations at most a few times a day.
 
-### Puul Performs Operations at the Right Time and Place
+#### Puul Performs Operations at the Right Time and Place
 
 Perhaps the main cause of defi exploits is not so much flaws in the operations (although those exist too), but rather design decisions 
 that try to do too many things, or do things at the wrong time or in the wrong place. The recent Pickle exploit is a good example of
@@ -78,14 +78,14 @@ The function in question was using data and operations outside of their respecti
 in the right place (inside the jars), the exploit could not have happened. In this case there were many data validation errors also, but
 the main error was just the design itself.
 
-### Access Control
+#### Access Control
 
 The Puul protocol has specific roles for performing each operation. Most of those roles are controlled by a timelock contract and are
 controlled by governance.
 
 The only role with immediate access to the protocol is the Harvester.
 
-### The Harvester
+#### The Harvester
 
 There is one special priviliged user in the Puul protocol called the Harvester. The Harvester performs all the operations mentioned above,
 plus a few others. None of the operations the Harvester performs can cause a loss of funds. They mostly involve claiming and harvesting rewards,
