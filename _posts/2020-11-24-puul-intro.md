@@ -4,7 +4,7 @@ title: Introducing Puul
 subtitle: Defi Made Easy
 gh-repo: PuulFinance/puulfinance.github.io
 gh-badge: [follow]
-tags: [puul]
+tags: [puul,defi]
 comments: false
 ---
 
