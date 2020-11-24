@@ -1,4 +1,12 @@
-## Puul Protocol
+---
+layout: post
+title: Puul Protocol
+subtitle: Puul Protocol Details
+gh-repo: PuulFinance/puulfinance.github.io
+gh-badge: [follow]
+tags: [puul,protocol,defi]
+comments: false
+---
 
 The Puul protocol can perhaps be described as a reward distribution mechanism, which uses concepts from tokens, vaults, and farming to generalize and simplify
 many commonly used protocols.
