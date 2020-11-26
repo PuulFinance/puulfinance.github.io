@@ -13,11 +13,9 @@ many commonly used protocols.
 
 Puul has characteristics of normal ERC20 tokens, vaults, and farms, but goes much further in simplicity and flexibility.
 
-Perhaps the main contribution of the Puul protocol is that it introduces the abstract concept of tokenizing any asset in a pool that generate rewards. 
+Perhaps the main contribution of the Puul protocol is that it introduces the abstract concept of tokenizing any asset in a pool that generates rewards. 
 The rewards are returned based on the proportion of the pool tokens owned. It doesn't matter how the rewards are generated or how many rewards there
-are - pool will track the correct values in all cases.
-
-Puul also greatly simplifies getting assets into and out of pools. Typically
+are - Puul will track the correct values in all cases.
 
 #### Protocol Safety
 
@@ -93,4 +91,15 @@ which convert and move tokens in a very controlled way.
 
 The Harvester can also change some settings, like limits on pools. None of the settings the Harvester can changes can cause you to lose funds or prevent
 you from withdrawing from the protocol.
+
+#### Entering and Exiting the Puul Protocol
+
+Puul also greatly simplifies getting assets into and out of pools. Puul let's you use common tokens, like the stable coins USDT, USDC, and DAI. Puul will convert
+to the required staking token and stake the token to start collecting the rewards. The number of transactions needed to start farming go from
+3-4 to one.
+
+It's the same when exiting the protocol. With one transaction you can withdraw and liquidate you stake back to USDT, USDC, DAI, or WETH.
+
+Practically speaking, this makes farming so easy and painless that it opens up oppportunities that wouldn't exist for most investors.
+
 
