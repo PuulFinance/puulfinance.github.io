@@ -99,8 +99,8 @@ you from withdrawing from the protocol.
 #### Entering and Exiting the Puul Protocol
 
 Puul also greatly simplifies getting assets into and out of pools. Puul let's you use common tokens, like the stable coins USDT, USDC, and DAI. Puul will convert
-to the required staking token and stake the token to start collecting the rewards. The number of transactions needed to start farming go from
-3-4 to one.
+to the required staking token and stake the token to start collecting the rewards. The reduces the number of transactions needed to start farming from
+3 or 4 to one.
 
 It's the same when exiting the protocol. With one transaction you can withdraw and liquidate you stake back to USDT, USDC, DAI, or WETH.
 
