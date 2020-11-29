@@ -8,8 +8,6 @@ tags: [puul,protocol,defi]
 comments: false
 ---
 
-![Fees](/assets/img/Fees.svg)
-
 The Puul protocol can perhaps be described as a reward distribution mechanism, which uses concepts from tokens, vaults, and farming to generalize and simplify
 many commonly used protocols.
 
@@ -42,7 +40,9 @@ All Puul operations are encapsulated. One operation does one thing in the right 
 All protocol operations are separated such that each does it's own specific task. This leaves little or no room for exploits. A failure of one 
 operation will be isolated and most likely recoverable.
 
-#### Example
+#### Example - Puul Fees
+
+![Fees](/assets/img/Fees.svg)
 
 A good example of using the Puul protocol is our fee system. Puul collects withdrawal and reward fees from pools. Distributing those fees is problematic
 in most other protocols. There is usually some ad hoc, inflexible distribution mechanism that is hard or impossible to modify and change. 
