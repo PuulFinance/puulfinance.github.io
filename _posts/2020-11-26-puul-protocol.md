@@ -64,6 +64,8 @@ FarmEndpoint. They are then harvested as rewards into PUULSTK. Owners of PUULSTK
 
 This process can go on ad infinitum to create elagant reward systems safely and easily.
 
+Note well that the Puul Fee system descibed here was set up by instantiating a few derived Puul contracts and some simple settings. It shows the versatility of the Puul contracts.
+
 #### Puul is Transaction Efficient
 
 The harvesting and claiming abstractions are very transaction efficient. These transactions are done at the global protocol level, and aren't dependent on
