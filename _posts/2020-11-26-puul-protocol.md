@@ -8,7 +8,7 @@ tags: [puul,protocol,defi]
 comments: false
 ---
 
-![Fees](/assets/img/Fees.png)
+![Fees](/assets/img/Fees.svg)
 
 The Puul protocol can perhaps be described as a reward distribution mechanism, which uses concepts from tokens, vaults, and farming to generalize and simplify
 many commonly used protocols.
