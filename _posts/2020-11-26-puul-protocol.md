@@ -75,7 +75,7 @@ user interactions. So they scale endlessly. Usually, you'll be performing these 
 
 Perhaps the main cause of defi exploits is not so much flaws in the operations (although those exist too), but rather design decisions 
 that try to do too many things, or do things at the wrong time or in the wrong place. The recent Pickle exploit is a good example of
-this. There were myriad issues with the flawed function that allowed the exploit, but it can be summed up in one work - encapsulation.
+this. There were myriad issues with the flawed function that allowed the exploit, but it can be summed up in one word - encapsulation.
 The function in question was using data and operations outside of their respective contexts. If all of the operations were performed 
 in the right place (inside the jars), the exploit could not have happened. In this case there were many data validation errors also, but
 the main error was just the design itself.
