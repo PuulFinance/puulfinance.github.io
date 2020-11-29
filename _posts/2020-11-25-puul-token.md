@@ -29,7 +29,7 @@ Governance will eventually control all aspects of the Puul protocol.
 
 #### Exclusive Pools only for PUUL Token Holders
 
-Some pools and farms will be created only for PUUL token holders. These will typically be high APY pools that want to share exclusively with token holders.
+Some pools and farms will be created only for PUUL token holders. These will typically be high APY pools that we want to share exclusively with token holders.
 
 #### Other Exclusive Opportunities
 
