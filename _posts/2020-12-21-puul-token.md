@@ -40,6 +40,5 @@ Due to the flexibility of the Puul protocol, it's very easy for us to attach spe
 The PUUL tokenonmics are simple:
 
 * 80% of the initial allocation (100,000 PUUL) will be distributed via liquidity mining.
-* 30% goes to the Treasury. The Treasury is a multisig under the control of governance, and will determine the best use of the funds in the treasury.
 * 20% goes to the development team.
 * The Treasury and governance will determine any future PUUL token minting/burning.
